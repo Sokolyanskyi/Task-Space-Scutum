@@ -3,7 +3,7 @@ import styles from './AddTodo.module.css'
 export const AddTodo = ({todos}) => {
   return (<div >
 	   <div className={styles.addTodo}>
-		 <input type="text" name='todo' placeholder='введіть текст'/>
+		 <input type="text" name='todo' placeholder='Введіть завдання'/>
 		 <button><img src="/enter.png" alt="enter"/></button>
 	   </div>
 	   <div className={styles.budge}>
