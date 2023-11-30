@@ -1,0 +1,49 @@
+.addTodo {
+    display: flex;
+    font-size: 20px;
+    color: var(--active-todo);
+    font-family: Inter;
+    position: relative;
+
+}
+.addTodo input {
+    display: block;
+    width: 95%;
+    height: 2em;
+    line-height: 3em;
+    border-radius: .3em;
+    border: none;
+    padding: 0 1.5em;
+    margin-left: 10px;
+    outline: none;
+    transition-duration: .5s;
+}
+.addTodo input:focus {
+    outline: #73605B 1px solid;
+    box-shadow: 4px 4px 4px 2px rgba(0,0,0, .2);
+
+}
+.addTodo button {
+    position: absolute;
+    top: .4em;
+    right: 1.2em;
+    height: 2.2em;
+    border-radius: .3em;
+    border: none;
+    text-transform: uppercase;
+    background: #FFFFFF;
+    transition-duration: .2s;
+}
+.addTodo button:active {
+
+    box-shadow:  4px 4px 4px 2px rgba(0,0,0, .2);
+
+}
+.budge {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    gap: 5px;
+    font-family: Inter;
+}

@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--active-todo);
+    margin-bottom: 10px;
+    width: 95%;
+    margin-left: 13px;
+    border-radius: .3em;
+    height: 3em;
+    padding-left: 10px;
+    color: #FFFFFF;
+    font-family: Inter;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+
+.container:hover {
+    background-color: var(--deleted-todo);
+}
+.todo {
+
+}
+
+.todo:hover {
+    background-color: var(--deleted-todo);
+}
+
+.todoButton {
+    cursor: pointer;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    transition-duration: .5s;
+
+
+}
+.todoButton:hover {
+    background-color: var(--deleted-todo);
+}
+.todoButton:active {
+    background-color: #FF3D00;
+}
+.todoButton img {
+    width: 20px;
+}
+
