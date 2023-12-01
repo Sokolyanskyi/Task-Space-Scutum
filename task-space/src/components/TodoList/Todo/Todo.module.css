@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--active-todo);
+    margin-bottom: 10px;
+    width: 95%;
+    margin-left: 13px;
+    border-radius: .3em;
+    height: 4em;
+    padding-left: 10px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: Inter;
+    transition-duration: .5s;
+    cursor: pointer;
+    border: none;
+
+
+}
+
+.container:hover {
+    background-color: var(--deleted-todo);
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, .2);
+}
+.container:active {
+    background-color: #FFFFFF;
+    color: black;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, .6);
+}
+.containerDone {
+    background-color: var(--main-bg-color);
+    text-decoration: line-through #260808 solid 3px;
+}
+
+.bin, .edit {
+    cursor: pointer;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    transition-duration: .5s;
+
+
+}
+
+.bin:hover {
+    background-color: #FF3D00;
+    box-shadow: 6px 6px 6px 4px rgba(0, 0, 0, .2);
+}
+
+.edit:hover {
+    background-color: #3a3ac4;
+    box-shadow: 6px 6px 6px 4px rgba(0, 0, 0, .2);
+}
+
+.bin:active, .edit:active {
+    background-color: forestgreen;
+}
+
+.bin img, .edit img {
+    width: 20px;
+}
+
+.todo {
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 50px;
+    width: 400px;
+}
+
+.buttonsBlock {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}

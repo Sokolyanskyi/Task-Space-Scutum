@@ -1,0 +1,42 @@
+.pagination {
+    display: flex;
+    gap: 10px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pageItem a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-family: Inter;
+    font-size: 13px;
+    cursor: pointer;
+    transition-duration: .5s;
+
+}
+
+.pageItem a:hover {
+    background-color: var(--active-todo);
+    color: #FFFFFF;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, .2);
+}
+
+.pageItem a:active {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.pageItemActive a {
+    background-color: var(--active-todo);
+    color: #FFFFFF;
+}
