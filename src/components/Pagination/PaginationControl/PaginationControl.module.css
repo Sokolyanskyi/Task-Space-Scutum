@@ -1,12 +1,14 @@
 .container {
     width: 95%;
-    margin-left: 10px;
+
     gap: 10px;
     transition-duration: .5s;
     display: flex;
+    margin-left: 5px;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    margin-right: 5px;
     transition-duration: .5s;
 
 }

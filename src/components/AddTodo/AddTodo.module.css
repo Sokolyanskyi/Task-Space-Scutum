@@ -4,6 +4,7 @@
     color: var(--active-todo);
     font-family: Inter;
     position: relative;
+    margin-right: 5px;
 
 }
 
