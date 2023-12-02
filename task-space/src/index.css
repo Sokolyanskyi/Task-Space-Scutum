@@ -13,9 +13,13 @@
 -------------------------------------------------------------------------------*/
 :root {
     --main-bg-color: #73605B;
-    --block-color: #D09683;
+    --block-color: #b28677;
     --active-todo: #2D4262;
     --deleted-todo: #363237;
+    --warning-color: #a90202;
+    --milk-color: #d3d2d2;
+    --text-black-color: #020202;
+    --edit-button: #c46a3a
 }
 
 html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {

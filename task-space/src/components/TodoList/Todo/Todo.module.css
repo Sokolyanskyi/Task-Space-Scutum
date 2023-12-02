@@ -9,7 +9,7 @@
     border-radius: .3em;
     height: 4em;
     padding-left: 10px;
-    color: #FFFFFF;
+    color: var(--milk-color);
     font-size: 15px;
     font-family: Inter;
     transition-duration: .5s;
@@ -24,8 +24,8 @@
     box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, .2);
 }
 .container:active {
-    background-color: #FFFFFF;
-    color: black;
+    background-color: var(--milk-color);
+    color: var(--text-black-color);
     box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, .6);
 }
 .containerDone {
@@ -38,7 +38,7 @@
     margin-right: 10px;
     width: 25px;
     height: 25px;
-    background-color: #FFFFFF;
+    background-color: var(--milk-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,12 +49,12 @@
 }
 
 .bin:hover {
-    background-color: #FF3D00;
+    background-color: var(--warning-color);
     box-shadow: 6px 6px 6px 4px rgba(0, 0, 0, .2);
 }
 
 .edit:hover {
-    background-color: #3a3ac4;
+    background-color: #c46a3a;
     box-shadow: 6px 6px 6px 4px rgba(0, 0, 0, .2);
 }
 

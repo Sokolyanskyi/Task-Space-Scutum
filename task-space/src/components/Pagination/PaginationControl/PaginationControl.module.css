@@ -17,7 +17,7 @@
     justify-content: space-around;
     padding: 10px;
     width: 50%;
-    background-color: #FFFFFF;
+    background-color: var(--milk-color);
     border: none;
     font: inherit;
     color: inherit;
@@ -32,16 +32,18 @@
     box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, .2);
 
 }
-
+.left:focus, .right:focus {
+    outline: none;
+}
 .left:active, .right:active {
-    background-color: #FFFFFF;
+    background-color: var(--milk-color);
 }
 
 .right {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #FFFFFF;
+    background-color: var(--milk-color);
     width: 50%;
     padding: 10px;
     border: none;

@@ -12,31 +12,34 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #FFFFFF;
+    background-color: var(--milk-color);
     width: 20px;
     height: 20px;
     border-radius: 5px;
     text-decoration: none;
-    color: black;
+    color: var(--text-black-color);
     font-family: Inter;
     font-size: 13px;
     cursor: pointer;
     transition-duration: .5s;
 
 }
+.pageItem a:focus {
+    outline: none;
+}
 
 .pageItem a:hover {
     background-color: var(--active-todo);
-    color: #FFFFFF;
+    color: var(--milk-color);
     box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, .2);
 }
 
 .pageItem a:active {
-    background-color: #FFFFFF;
-    color: black;
+    background-color: var(--milk-color);
+    color: var(--text-black-color);
 }
 
 .pageItemActive a {
     background-color: var(--active-todo);
-    color: #FFFFFF;
+    color: var(--milk-color);
 }

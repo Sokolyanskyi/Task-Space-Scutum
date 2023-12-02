@@ -18,6 +18,7 @@
     margin-left: 10px;
     outline: none;
     transition-duration: .5s;
+    background-color: var(--milk-color);
 }
 
 .addTodo input:focus {
@@ -38,7 +39,7 @@
     border-radius: .3em;
     border: none;
     text-transform: uppercase;
-    background: #FFFFFF;
+    background: var(--milk-color);
     transition-duration: .5s;
 }
 
@@ -47,7 +48,9 @@
     background-color: var(--active-todo);
 
 }
-
+.addTodo button:focus {
+    outline: none;
+}
 .addTodo button:hover {
     box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, .2);
 }
