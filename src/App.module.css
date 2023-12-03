@@ -33,6 +33,7 @@
 .block {
     background: var(--block-color);
     width: 85%;
+    max-width: 400px;
     border-radius: 10px;
     max-height: 850px;
     overflow: hidden;
